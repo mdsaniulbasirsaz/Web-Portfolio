@@ -2,6 +2,7 @@
 body {
     font-family: "Poppins", sans-serif;
     animation: fadeIn 2s ease-in-out;
+    margin: 0px;
 }
 
 h1 {
@@ -14,10 +15,13 @@ h1 {
     animation: pulse 2s infinite;
 }
 
+section {
+    height: 500px;
+}
+
 .half-width-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -35,6 +39,7 @@ h1 {
     margin: 0 29px;
     align-items: center;
     animation: zoomIn 1.5s ease-out;
+    margin-top: 40px;
 }
 
 .half-width h3 {
@@ -45,8 +50,20 @@ h1 {
 
 .half-width p {
     text-align: justify;
-    font-size: 11px;
+    font-size: 13px;
     animation: fadeInUp 1.5s ease-out;
+}
+
+.Link-Btn {
+    text-decoration: none;
+    background-color: rgba(247, 165, 12, 0.829);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Link-Btn:hover {
+    background-color: rgb(56, 14, 95);
 }
 
 
