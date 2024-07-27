@@ -6,7 +6,12 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
+    animation: slideInDown 1s ease-out;
+}
+
+h2 {
+    font-size: 40px;
     animation: slideInDown 1s ease-out;
 }
 
@@ -14,9 +19,13 @@ h1 {
     color: orange;
     animation: pulse 2s infinite;
 }
-
+.orange-highlight {
+    color: orange;
+    animation: pulse 2s infinite;
+}
 section {
     height: 500px;
+    padding-bottom: 150px;
 }
 
 .half-width-container {
@@ -52,11 +61,12 @@ section {
     text-align: justify;
     font-size: 13px;
     animation: fadeInUp 1.5s ease-out;
+    color: dimgray;
 }
 
 .Link-Btn {
     text-decoration: none;
-    background-color: rgba(247, 165, 12, 0.829);
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
     padding: 10px 20px;
     color: white;
     font-weight: bold;
@@ -64,9 +74,31 @@ section {
 
 .Link-Btn:hover {
     background-color: rgb(56, 14, 95);
+    
 }
 
+.dream-area{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.experience-area{
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#Programmer{
+    border-left: 7px solid;
+   border-image: linear-gradient();
+}
 /* Animations */
 
 @keyframes fadeIn {
